@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 30 Mar, 2017 3:44:22 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.bean.Custom" table="CUSTOM">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="increment" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="NAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="EMAIL" />
+        </property>
+        <property name="contact" type="java.lang.String">
+            <column name="CONTACT" />
+        </property>
+        <property name="ptime" type="java.lang.String">
+            <column name="PTIME" />
+        </property>
+        <property name="nog" type="java.lang.String">
+            <column name="NOG" />
+        </property>
+        <property name="rdate" type="java.lang.String">
+            <column name="RDATE" />
+        </property>
+        <property name="sreq" type="java.lang.String">
+            <column name="SREQ" />
+        </property>
+        <property name="pack" type="java.lang.String">
+            <column name="PACK" />
+        </property>
+    </class>
+</hibernate-mapping>
